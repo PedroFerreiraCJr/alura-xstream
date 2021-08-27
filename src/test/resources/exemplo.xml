@@ -1,0 +1,39 @@
+<exemplos>	
+	<exemplo>
+		<!-- Exemplo de compra com Geladeira e Ferro de Passar -->
+		<compra>
+			<id>15</id>
+			<produtos>
+				<produto codigo="1587">
+					<nome>Geladeira</nome>
+					<preco>1000.0</preco>
+					<descricao>Geladeira de duas portas</descricao>
+				</produto>
+				<produto codigo="1588">
+					<nome>Ferro de Passar</nome>
+					<preco>100.0</preco>
+					<descricao>Ferro com vaporizador</descricao>
+				</produto>
+			</produtos>
+		</compra>
+	</exemplo>
+	
+	<!-- Exemplo que utiliza herança para gerar o xml -->
+	<exemplo>
+		<compra>
+			<id>15</id>
+			<produtos>
+				<livro codigo="1589">
+					<nome>O Pássaro Raro</nome>
+					<preco>100.0</preco>
+					<descricao>Dez histórias sobre a existência</descricao>
+				</livro>
+				<musica codigo="1590">
+					<nome>Meu passeio</nome>
+					<preco>100.0</preco>
+					<descricao>Música livre</descricao>
+				</musica>
+			</produtos>
+		</compra>
+	</exemplo>
+</exemplos>
